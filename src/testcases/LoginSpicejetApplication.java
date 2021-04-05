@@ -16,13 +16,13 @@ public class LoginSpicejetApplication {
 		driver.manage().deleteAllCookies();
 		driver.get("https://book.spicejet.com/Login.aspx");
 		SpicejetMemberLoginPage sj = new SpicejetMemberLoginPage(driver);
-		sj.Username().sendKeys("hellllooooooo");
-		sj.Password().sendKeys("hello123");
+		sj.Username().sendKeys("helllloOOOOOooooo");
+		sj.Password().sendKeys("hello1235464644444444444444444648688464464664");
 		// sj.Login().click();
 		sj.Signup().click();
 		
 		SpicejetSignup rs = new SpicejetSignup(driver);
-		rs.FirstName().sendKeys("KAREEEEEEEEEEEEENAAA KAPIOOOOOOOOOOOOORRRRRRR");
+		rs.FirstName().sendKeys("KAREEEEEEEEEEEEENAAA KAPIOOOORRRRRRR");
 		rs.LastName().sendKeys("KHHHAAAAAAAAAAAAAAANNNNN");
 		rs.Submit().click();
 	}
