@@ -20,9 +20,10 @@ public class LoginSpicejetApplication {
 		sj.Password().sendKeys("hello123");
 		// sj.Login().click();
 		sj.Signup().click();
+		
 		SpicejetSignup rs = new SpicejetSignup(driver);
-		rs.FirstName().sendKeys("helloooo");
-		rs.LastName().sendKeys("hiiii");
+		rs.FirstName().sendKeys("KAREEEEEEEEEEEEENAAA KAPIOOOOOOOOOOOOORRRRRRR");
+		rs.LastName().sendKeys("KHHHAAAAAAAAAAAAAAANNNNN");
 		rs.Submit().click();
 	}
 
